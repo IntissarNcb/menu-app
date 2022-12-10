@@ -1,0 +1,84 @@
+:root {
+    --brown: #342628;
+    --green: #788402;
+    --orange: #FEAA00;
+    --white: #F7F4EF;
+    --red: #FE0000;
+    --true-white: #FFFFFF
+}
+@font-face {
+    font-family: sitkaHeadingRegular;
+    src: url(font/sitkaHeading.ttf);
+}
+
+body {
+    margin: 0;
+    color: var(--white);
+    font-family: sitkaHeadingRegular;
+    /*font-size: 16px;*/
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    background-color: var(--white);
+}
+
+.maj{
+    text-transform: uppercase;
+}
+.heading{
+    /*font-size: 21px;*/
+    font-size: 31px;
+    font-weight: bolder;
+}
+.subheading{
+    /*font-size: 18px;*/
+    font-size: 28px;
+    font-weight: bolder;
+}
+.input{
+    /*font-size: 16px;*/
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+
+
+/* ---------- main-page -------- */
+.main-page{
+    position: relative;
+}
+.main-page .main-img{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+.main-page .main-img-filter{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--brown);
+    opacity: 0.6;
+    z-index: 1;
+}
+.main-page .content{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+}
+.main-page .content .logo-img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+.main-page .content .btn-green{
+    background-color: var(--green);
+    color: var(--white);
+    border-radius: 5px;
+    padding: 15px 30px;
+}
+
+
+
