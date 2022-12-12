@@ -9,7 +9,7 @@
 
     <!------------------------- css folders --------------------------->
     <link href="css/main.css" rel="stylesheet">
-    <link href="css/main-menu.css" rel="stylesheet">
+    <link href="css/card.css" rel="stylesheet">
 </head>
 <body>
 
@@ -19,25 +19,22 @@
     <button class="nav-btn" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
         <i class="fas fa-bars"></i>
     </button>
-    <div class="search-bar">
-        <input type="text" placeholder="Search...">
-    </div>
-    <div class="shopping-bag">
+    <input class="search-bar" type="text" placeholder="Search...">
+    <a href="shpping-bag.html" class="shopping-bag">
         <i class="fas fa-shopping-cart"></i>
-    </div>
+    </a>
 </nav>
+
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-fullscreen">
         <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i></button>
-            </div>
             <div class="modal-body d-flex flex-column">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i></button>
                 <ul id="menu" class="text-center maj">
                     <img class="logo-img mb-5" src="images/logo.png" alt="logo">
-                    <li><a href="#">home</a></li>
+                    <li><a href="main-menu.html">home</a></li>
                     <li><a href="#">today's meals</a></li>
-                    <li><a href="#">my card</a></li>
+                    <li><a href="shpping-bag.html">my card</a></li>
                     <li><a href="#">favorites</a></li>
                     <li><a href="#">last orders</a></li>
                 </ul>

@@ -25,6 +25,9 @@ body {
 .maj{
     text-transform: uppercase;
 }
+.cap{
+    text-transform: capitalize;
+}
 .heading{
     /*font-size: 21px;*/
     font-size: 31px;
@@ -44,17 +47,17 @@ body {
 
 
 /* ---------- main-page -------- */
-.main-page{
+#main-page{
     position: relative;
 }
-.main-page .main-img{
+#main-page .main-img-bg{
     position: absolute;
     width: 100%;
     height: 100vh;
     object-fit: cover;
     z-index: -1;
 }
-.main-page .main-img-filter{
+#main-page .main-img-filter{
     position: absolute;
     width: 100%;
     height: 100vh;
@@ -62,23 +65,84 @@ body {
     opacity: 0.6;
     z-index: 1;
 }
-.main-page .content{
+#main-page .content{
     position: absolute;
     width: 100%;
     height: 100vh;
     z-index: 2;
 }
-.main-page .content .logo-img{
+#main-page .content .logo-img{
     width: 200px;
     height: 200px;
     object-fit: contain;
 }
-.main-page .content .btn-green{
+#main-page .content .order-btn{
     background-color: var(--green);
     color: var(--white);
     border-radius: 5px;
     padding: 15px 30px;
 }
+/* ---------- end main-page -------- */
+
+
+/*---------- navbar ----------*/
+#navbar {
+    background-color: var(--brown);
+    padding: 10px 20px;
+}
+#navbar .nav-btn{
+    color: var(--orange);
+    background-color: transparent;
+    border: none;
+}
+#navbar .search-bar{
+    border: none;
+    border-radius: 25px;
+    padding: 0 15px;
+    outline:0;
+}
+#navbar .shopping-bag{
+    color: var(--orange);
+}
+.modal .modal-content{
+    background-color: var(--brown);
+}
+.modal .modal-body .btn-close{
+    color: transparent;
+    background-color: var(--orange);
+    border-radius: 50%;
+    margin: 20px 0 200px 20px;
+}
+.modal .modal-body ul{
+    list-style: none;
+}
+.modal .modal-body ul li a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+#navbar .return-btn{
+    color: var(--orange);
+}
+/*---------- end navbar ----------*/
+
+
+/*------------ main menu -----------*/
+#main-menu .food-type {
+    height: 300px;
+    width: 100%;
+    background: var(--brown);
+    overflow: hidden;
+    background: var(--brown);  /* fallback colour. Make sure this is just one solid colour. */
+    background: -webkit-linear-gradient(rgba(52, 38, 40, 0.6), rgba(52, 38, 40, 0.6)), url("images/breakfast.jpg");
+    background: linear-gradient(rgba(52, 38, 40, 0.6), rgba(52, 38, 40, 0.6)), url("images/breakfast.jpg"); /* The least supported option. */
+}
+#main-menu .food-type .food-type-title{
+    text-decoration: none;
+    color: var(--white);
+}
+
+
 
 
 
