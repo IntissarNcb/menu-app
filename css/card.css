@@ -49,3 +49,12 @@
     width: 100%;
     padding: 15px 30px;
 }
+.delete{
+    margin: 0 auto;
+}
+.check{
+    width: 25px;
+    height: 25px;
+    border: 2px solid var(--red);
+    margin-right: 15px;
+}

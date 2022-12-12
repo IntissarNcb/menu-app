@@ -21,7 +21,7 @@
     <div class="d-flex justify-content-center">
         <h1 class="food-type-title maj heading">card</h1>
     </div>
-        <h3 class="edit-btn maj">edit</h3>
+        <button id="edit-btn" class="edit-btn maj">edit</button>
 </nav>
 
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -51,7 +51,8 @@
             <img class="food-card-img" src="images/pasta.jpg" alt="pasta">
         </div>
         <div class="col-8 food-card-infos">
-            <h2 class="subheading cap">Penne Arrabbiata</h2>
+            <h2 class="food-card-title subheading cap d-flex justify-content-between">Penne Arrabbiata
+            </h2>
             <div class="d-flex pb-3">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -70,7 +71,7 @@
             <div class="bottom left">
                 <h3 class="subheading"><span>* </span>2</h3>
             </div>
-            <div class="bottom right">
+            <div class="bottom right quantity">
                 <button class="plus">+</button>
                 <button class="minus">-</button>
             </div>
@@ -82,8 +83,8 @@
 
 <!-- -------------- shopping bag order button ------------ -->
 <button class="shopping-bag-order-btn fixed-bottom d-flex justify-content-between">
-    <span class="cap">order</span>
-    <span>15 $</span>
+    <span class="cap span">order</span>
+    <span class="span">15 $</span>
 </button>
 <!-- -------------- end shopping bag order button ------------ -->
 

@@ -104,6 +104,11 @@ body {
 #navbar .shopping-bag{
     color: var(--orange);
 }
+#navbar .edit-btn{
+    background: none;
+    border: none;
+    color: var(--white);
+}
 .modal .modal-content{
     background-color: var(--brown);
 }
