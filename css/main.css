@@ -146,6 +146,25 @@ body {
     text-decoration: none;
     color: var(--white);
 }
+/*------------ end main menu -----------*/
+
+
+
+/*------------ today's meal bar -----------*/
+.type-food-bar{
+    width: 100%;
+    background-color: var(--true-white);
+    color: rgba(52, 38, 40, 0.3);
+}
+.type-food-bar h2{
+    padding: 25px;
+    margin-bottom: 0;
+}
+.active-type-food{
+    color: var(--brown);
+    font-size: larger;
+    border-bottom: 2px solid var(--green);
+}
 
 
 

@@ -11,16 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50526212-a7de-4c62-af6f-e7c72617b63e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/todays-meals.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/card.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/card.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorites.html" beforeDir="false" afterPath="$PROJECT_DIR$/most-ordered.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-type.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-type.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/main-menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shpping-bag.html" beforeDir="false" afterPath="$PROJECT_DIR$/shpping-bag.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todays-meals.html" beforeDir="false" afterPath="$PROJECT_DIR$/todays-meals.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +67,7 @@
       <workItem from="1670706480198" duration="791000" />
       <workItem from="1670847924377" duration="7990000" />
       <workItem from="1670961349695" duration="2076000" />
-      <workItem from="1671023965121" duration="6375000" />
+      <workItem from="1671023965121" duration="7923000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1670706511175</created>
@@ -102,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670962844547</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="todays meal carousel">
+      <created>1671048805595</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1671048805595</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,7 +127,8 @@
     <MESSAGE value="last commit" />
     <MESSAGE value="javascript" />
     <MESSAGE value="favorite page" />
-    <option name="LAST_COMMIT_MESSAGE" value="favorite page" />
+    <MESSAGE value="todays meal carousel" />
+    <option name="LAST_COMMIT_MESSAGE" value="todays meal carousel" />
   </component>
   <component name="WindowStateProjectService">
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1670848334586">
@@ -136,10 +139,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1670878104181" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1670962851621">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1671048811725">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1670962851621" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1671048811725" />
     <state x="484" y="270" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1670706491583">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
