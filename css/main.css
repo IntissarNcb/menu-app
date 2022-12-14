@@ -76,7 +76,7 @@ body {
     height: 200px;
     object-fit: contain;
 }
-#main-page .content .order-btn{
+.order-btn{
     background-color: var(--green);
     color: var(--white);
     border-radius: 5px;

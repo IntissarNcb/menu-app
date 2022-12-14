@@ -16,8 +16,8 @@
     padding: 15px;
     position: relative;
 }
-#food-card .food-card-infos i, #food-card .food-card-infos h3{
-    color: var(--orange);
+.orange{
+    color: var(--orange)
 }
 .bottom{
     position: absolute;
@@ -58,3 +58,25 @@
     border: 2px solid var(--red);
     margin-right: 15px;
 }
+/*------- end food type card ----------*/
+
+
+
+/*------- carousel today's food card ----------*/
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.swiper-slide {
+    width: 80%;
+}
+.card{
+    color: var(--brown);
+}
+.card .card-img-top {
+    height: 500px;
+    object-fit: cover;
+}
+
+/*------- end carousel today's food card ----------*/

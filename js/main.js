@@ -1,9 +1,4 @@
-// $('.edit-btn').click(function() {
-//     $('#foo').addClass('myClass'); // class i want to change
-// });
-
-
-
+// edit shopping card
 $('#edit-btn').click(function() {
     var x = document.getElementById("edit-btn");
     if (x.innerHTML === "edit") {
@@ -21,4 +16,23 @@ $('#edit-btn').click(function() {
         $(".quantity").toggle();
         $(".check").toggle();
     }
+});
+
+
+// carousel of today's meal card
+var swiper = new Swiper(".mySwiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+    },
+    pagination: {
+        el: ".swiper-pagination",
+    },
 });

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>today's meal</title>
+
+    <!------------------------- bootstrap --------------------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!------------------------- swiper --------------------------->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+    <!------------------------- css folders --------------------------->
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/card.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- -------------- navbar ------------ -->
+<nav id="navbar" class="sticky-top d-flex justify-content-between">
+    <!-- Button trigger modal -->
+    <button class="nav-btn" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <i class="fas fa-bars"></i>
+    </button>
+    <div class="d-flex justify-content-center">
+        <h1 class="food-type-title maj heading">today's meal</h1>
+    </div>
+    <a href="shpping-bag.html" class="shopping-bag">
+        <i class="fas fa-shopping-cart"></i>
+    </a>
+</nav>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+            <div class="modal-body d-flex flex-column">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i></button>
+                <ul id="menu" class="text-center maj">
+                    <img class="logo-img mb-5" src="images/logo.png" alt="logo">
+                    <li><a href="main-menu.html">home</a></li>
+                    <li><a href="todays-meals.html">today's meals</a></li>
+                    <li><a href="shpping-bag.html">my card</a></li>
+                    <li><a href="most-ordered.html">most ordered</a></li>
+                    <li><a href="#">last orders</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -------------- end navbar ------------ -->
+
+
+<!-- -------------- carousel today's meal card ------------ -->
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div class="card text-center">
+                <img src="images/pasta.jpg" class="card-img-top" alt="pasta">
+                <div class="card-body">
+                    <h2 class="subheading">Penne Arrabbiata</h2>
+                    <div class="d-flex pb-3 justify-content-center orange pb-3">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p class="card-text fst-italic pb-5">
+                        Penne Pasta, Olive Oil, Red Pepper Flakes,
+                        Garlic, Crushed Tomatoes, Tomato Paste,
+                        Salt, Pepper, Sugar and Fresh Basil
+                    </p>
+                    <button class="shopping-bag-order-btn d-flex justify-content-between">
+                        <span class="cap span">order</span>
+                        <span class="span">15 $</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="card text-center">
+                <img src="images/pasta.jpg" class="card-img-top" alt="pasta">
+                <div class="card-body">
+                    <h2 class="subheading">Penne Arrabbiata</h2>
+                    <div class="d-flex pb-3 justify-content-center orange pb-3">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p class="card-text fst-italic pb-5">
+                        Penne Pasta, Olive Oil, Red Pepper Flakes,
+                        Garlic, Crushed Tomatoes, Tomato Paste,
+                        Salt, Pepper, Sugar and Fresh Basil
+                    </p>
+                    <button class="shopping-bag-order-btn d-flex justify-content-between">
+                        <span class="cap span">order</span>
+                        <span class="span">15 $</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="card text-center">
+                <img src="images/pasta.jpg" class="card-img-top" alt="pasta">
+                <div class="card-body">
+                    <h2 class="subheading">Penne Arrabbiata</h2>
+                    <div class="d-flex pb-3 justify-content-center orange pb-3">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p class="card-text fst-italic pb-5">
+                        Penne Pasta, Olive Oil, Red Pepper Flakes,
+                        Garlic, Crushed Tomatoes, Tomato Paste,
+                        Salt, Pepper, Sugar and Fresh Basil
+                    </p>
+                    <button class="shopping-bag-order-btn d-flex justify-content-between">
+                        <span class="cap span">order</span>
+                        <span class="span">15 $</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    <div class="swiper-pagination"></div>
+</div>
+<!-- -------------- end carousel today's meal card ------------ -->
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/f9c10aff2c.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
