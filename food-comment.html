@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>food-comment</title>
+
+    <!------------------------- bootstrap --------------------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!------------------------- css folders --------------------------->
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/card.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- -------------- navbar food type ------------ -->
+<nav id="navbar" class="sticky-top d-flex justify-content-between">
+    <a href="main-menu.html" class="return-btn align-self-center">
+        <i class="fas fa-chevron-left"></i>
+    </a>
+    <div class="d-flex justify-content-center align-self-center">
+        <h1 class="food-type-title maj heading">Penne Arrabbiata</h1>
+    </div>
+    <a href="shpping-bag.html" class="shopping-bag align-self-center">
+        <i class="fas fa-shopping-cart"></i>
+    </a>
+</nav>
+<!-- -------------- end navbar food type ------------ -->
+
+
+<!-- -------------- food comment image ------------ -->
+<div class="food-comment-img">
+    <img src="images/pasta.jpg" alt="pasta">
+    <div class="price d-flex justify-content-between fixed-bottom">
+        <h3 class="subheading white">15$</h3>
+        <a href="#" class="shopping-bag">
+            <i class="fas fa-shopping-cart white"></i>
+        </a>
+    </div>
+</div>
+<!-- -------------- end food comment image ------------ -->
+
+
+<!-- -------------- rating comments ------------ -->
+<div class="total-rate d-flex justify-content-between">
+    <h3 class="cap subheading brown">comments (27)</h3>
+    <div class="d-flex orange">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+        <i class="far fa-star"></i>
+    </div>
+</div>
+<div class="comments brown">
+    <div class="row">
+        <div class="col-3">
+            <div class="profile-icon d-flex justify-content-center align-items-center">
+                <i class="fas fa-user"></i>
+            </div>
+        </div>
+        <div class="col-9">
+            <h3 class="cap subheading">intissar necib</h3>
+            <p class="fst-italic">So delicious, a little bit spacy. the price is good,
+                a bit salty because of the cheese.</p>
+        </div>
+    </div>
+</div>
+<div class="comments brown">
+    <div class="row">
+        <div class="col-3">
+            <div class="profile-icon d-flex justify-content-center align-items-center">
+                <i class="fas fa-user"></i>
+            </div>
+        </div>
+        <div class="col-9">
+            <h3 class="cap subheading">intissar necib</h3>
+            <p class="fst-italic">So delicious, a little bit spacy. the price is good,
+                a bit salty because of the cheese.</p>
+        </div>
+    </div>
+</div>
+<div class="comments brown">
+    <div class="row">
+        <div class="col-3">
+            <div class="profile-icon d-flex justify-content-center align-items-center">
+                <i class="fas fa-user"></i>
+            </div>
+        </div>
+        <div class="col-9">
+            <h3 class="cap subheading">intissar necib</h3>
+            <p class="fst-italic">So delicious, a little bit spacy. the price is good,
+                a bit salty because of the cheese.</p>
+        </div>
+    </div>
+</div>
+<div class="comments brown">
+    <div class="row">
+        <div class="col-3">
+            <div class="profile-icon d-flex justify-content-center align-items-center">
+                <i class="fas fa-user"></i>
+            </div>
+        </div>
+        <div class="col-9">
+            <h3 class="cap subheading">intissar necib</h3>
+            <p class="fst-italic">So delicious, a little bit spacy. the price is good,
+                a bit salty because of the cheese.</p>
+        </div>
+    </div>
+</div>
+<!-- -------------- end rating comments ------------ -->
+
+
+<!-- -------------- rating buttons ------------ -->
+<div class="rating-btn fixed-bottom d-flex">
+    <div class="star-btn">
+        <button class="cap green d-flex justify-content-center" type="button" data-bs-toggle="modal" data-bs-target="#star-modal">
+            <i class="far fa-star align-self-center"></i>
+            give me a star
+        </button>
+    </div>
+
+    <div class="comment-btn">
+        <button class="cap white d-flex justify-content-center" type="button" data-bs-toggle="modal" data-bs-target="#comment-modal">
+            <i class="far fa-comment-dots align-self-center"></i>
+            write a comment
+        </button>
+    </div>
+
+
+</div>
+<!-- star modal -->
+<div class="modal fade" id="star-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body d-flex flex-column align-items-center">
+                <div class="d-flex orange pb-5">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <button class="btn order-btn cap" type="submit">send</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- comment modal -->
+<div class="modal fade" id="comment-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body">
+                <form method="post" action="" class="d-flex justify-content-center flex-column">
+                    <input name="name" type="text" class="name-input mb-3 p-2" placeholder="Name.." />
+                    <textarea name="message" class="comment-input mb-3 p-2" placeholder="Comment.." rows="4"></textarea>
+                    <div class="submit-btn mt-5">
+                        <button class="btn order-btn cap" type="submit">send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -------------- end rating buttons ------------ -->
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/f9c10aff2c.js" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

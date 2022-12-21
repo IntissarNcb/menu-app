@@ -33,7 +33,6 @@
 }
 .plus, .minus, .shopping-bag-order-btn{
     background-color: var(--green);
-    border: none;
     color: var(--white);
     padding: 5px 15px;
     cursor: pointer;
